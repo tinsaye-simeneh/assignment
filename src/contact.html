@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A company like no other">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A company like no other" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-      <a name="top"></a>
-      <img src="images/logo.png" alt="Logo of Plantation products showing a leaf">
-    <a href="sites.html">Sites</a>
-    <a href="products.html">Products</a>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="order.html">Order</a></header>
-
-    <main><form action="/action_page.php">
+  </head>
+  <body>
+    <header class="header">
+      <div class="row">
+        <div class="col-4">
+          <a name="top"></a>
+          <img
+            src="images/logo.png"
+            alt="Logo of Plantation products showing a leaf"
+            class="logo"
+          />
+        </div>
+        <div class="col-8">
+          <a href="sites.html" class="nav-links">Sites</a>
+          <a href="about.html" class="nav-links">Products</a>
+          <a href="order.html" class="nav-links">Home</a>
+          <a href="about.html" class="nav-links">Order</a>
+          <a href="products.html" class="nav-links">Products</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form action="/action_page.php">
         <fieldset>
           <legend>Personal Information</legend>
           <label for="email">Email</label>
-          <input type="text" id="email" name="email"><br><br>
+          <input type="text" id="email" name="email" /><br /><br />
           <label for="full_name">Full Name</label>
-          <input type="text" id="full_name" name="full_name"><br><br>
-          <label for="quality">Message</label><br>
+          <input type="text" id="full_name" name="full_name" /><br /><br />
+          <label for="quality">Message</label><br />
           <textarea id="quality" name="quality" rows="4" cols="50">
             Enter text here...
-            </textarea><br>
-          <input type="submit" value="Submit">
+            </textarea
+          ><br />
+          <input type="submit" value="Submit" />
         </fieldset>
-      </form></main>
-    
-      <footer>
-        <a href="https://web.telegram.org/k/" target="_blank">telegram</a>
-        <a href="https://www.youtube.com/" target="_blank">youtube</a>
-        <a href="https://www.facebook.com/" target="_blank">facebook</a>
-        <a href="#top">Back to top</a>
-   </footer>
-</body>
+      </form>
+    </main>
+
+    <footer>
+      <a href="https://web.telegram.org/k/" target="_blank">telegram</a>
+      <a href="https://www.youtube.com/" target="_blank">youtube</a>
+      <a href="https://www.facebook.com/" target="_blank">facebook</a>
+      <a href="#top">Back to top</a>
+    </footer>
+  </body>
 </html>
