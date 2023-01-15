@@ -73,8 +73,6 @@ footer{
     background-color: brown;
     border: 1px solid #000;
     padding: 1.5rem;
-    bottom: 0;
-    position: fixed;
     width: 95%;
 }
 .back{
@@ -95,10 +93,11 @@ footer{
     color: blue;
     padding: 1rem;
 }
-main{
-    overflow-x: hidden;
-        overflow-y: auto;
-        height:50rem;
+.mt-3{
+    margin-top: 3rem;
+}
+.contact-main{
+   height: 55vh;
 }
 .contact-form{
     width: 90%;
@@ -149,9 +148,22 @@ table, th, td {
         overflow-y: auto;
         height:20rem;
     }
+    table{
+        width: 100%;
+        padding: 0.3rem;
+    }
+    table, th, td {
+        padding: 0rem;
+      }
     .contact-form{
         margin:0 auto;
         width: 100%;
         margin-top: 2rem
     }
+    .site-detail1{
+        margin-left: 0rem;
+    }
+    .contact-main{
+        height: 35vh;
+     }
 }
