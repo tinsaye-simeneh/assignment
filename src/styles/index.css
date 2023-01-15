@@ -100,6 +100,12 @@ main{
         overflow-y: auto;
         height:20rem;
 }
+.contact-form{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
 @media screen and (max-width: 768px){
     .col-4{
         width: 100%;
@@ -123,5 +129,10 @@ main{
         overflow-x: hidden;
         overflow-y: auto;
         height:20rem;
+    }
+    .contact-form{
+        margin:0 auto;
+        width: 100%;
+        margin-top: 2rem
     }
 }
