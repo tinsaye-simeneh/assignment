@@ -98,12 +98,31 @@ footer{
 main{
     overflow-x: hidden;
         overflow-y: auto;
-        height:20rem;
+        height:50rem;
 }
 .contact-form{
     width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
+}
+.table-head{
+    background-color: gray;
+}
+table{
+    width: 50%;
+   margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+.site-detail1{
+    margin-left: 2rem;
+}
+.site-detail2{
+    text-align: left;
 }
 
 @media screen and (max-width: 768px){
