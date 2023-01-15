@@ -1,0 +1,44 @@
+.header{
+    background-color: #000;
+    color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.col-8{
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+.col-12{
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .col-4{
+        width: 100%;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-12{
+        width: 100%;
+    }
+}
