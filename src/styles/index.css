@@ -7,36 +7,50 @@
     flex-wrap: wrap;
 }
 .col-4{
-    background-color: green;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
 }
 .col-8{
-    background-color: green;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 75%;
 }
 .col-12{
-    background-color: green;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
+.nav-links{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #fff;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+.nav-links:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 @media screen and (max-width: 768px){
     .col-4{
         width: 100%;
+        padding: 1rem;
     }
     .col-8{
         width: 100%;
+        padding: 1rem;
     }
     .col-12{
         width: 100%;
