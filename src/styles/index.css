@@ -5,23 +5,37 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.col-3{
+    display: grid;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.p-1{
+    padding: 1rem;
+}
+.m-1{
+    margin: 1rem;
 }
 .col-4{
     display: flex;
+    width: 33.3%;
     justify-content: center;
     align-items: center;
-    width: 25%;
 }
 .col-8{
     display: flex;
+    width: 66.7%;
     justify-content: center;
     align-items: center;
-    width: 75%;
 }
 .col-12{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     width: 100%;
 }
 .nav-links{
@@ -35,12 +49,14 @@
     padding: 1rem;
 }
 .nav-links:hover{
+    text-decoration: underline;
     background-color: #fff;
     color: #000;
 }
 .logo{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 @media screen and (max-width: 768px){
@@ -53,6 +69,9 @@
         padding: 1rem;
     }
     .col-12{
+        width: 100%;
+    }
+    .col-3{
         width: 100%;
     }
 }
