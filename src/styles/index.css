@@ -95,6 +95,11 @@ footer{
     color: blue;
     padding: 1rem;
 }
+main{
+    overflow-x: hidden;
+        overflow-y: auto;
+        height:20rem;
+}
 @media screen and (max-width: 768px){
     .col-4{
         width: 100%;
