@@ -44,11 +44,11 @@ h1{
 .nav-links{
     padding-left: 1rem;
     padding-right: 1rem;
-    color: #fff;
+    color: blue;
 }
 .nav-links a{
     text-decoration: none;
-    color: #fff;
+    color: blue;
     padding: 1rem;
 }
 .nav-links:hover{
@@ -80,8 +80,8 @@ footer{
     order: 2;
 }
 .social-links a{
-    text-decoration: none;
-    color: #fff;
+    text-decoration: underline;
+    color: blue;
     padding: 1rem;
 }
 @media screen and (max-width: 768px){
