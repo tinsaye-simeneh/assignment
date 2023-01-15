@@ -56,6 +56,10 @@ h1{
     background-color: #fff;
     color: #000;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
 .logo{
     padding-top: 1rem;
     padding-bottom: 1rem;
