@@ -5,7 +5,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 .col-3{
     display: grid;
@@ -14,13 +14,16 @@
     align-items: center;
 }
 h1{
-    text-align: center;
+    text-align: left;
 }
 .p-1{
     padding: 1rem;
 }
 .m-1{
     margin: 1rem;
+}
+.m-2{
+    margin:2rem;
 }
 .col-4{
     display: flex;
